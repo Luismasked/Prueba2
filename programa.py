@@ -1,2 +1,21 @@
-numero = int(input("Ingresa un número entero: "))
-print("El número que ingresaste es:", numero)
+while True:
+    print("\n--- Calculadora Sencilla ---")
+    print("1. Sumar")
+    print("2. Restar")
+    print("3. Multiplicar")
+    print("4. Dividir")
+    print("5. Salir")
+
+    opcion = input("Elige una opción (1-5): ")
+
+    if opcion == "5":
+        print("¡Hasta luego!")
+        break
+
+    try:
+        num1 = float(input("Ingresa el primer número: "))
+        num2 = float(input("Ingresa el segundo número: "))
+    except ValueError:
+        print("Entrada inválida. Por favor, ingresa números.")
+        continue
+

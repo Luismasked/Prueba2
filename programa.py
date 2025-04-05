@@ -24,6 +24,8 @@ while True:
                 print("Opción inválida. Intenta de nuevo.")
             case "3":
                 print("Resultado:", num1 * num2)
+            case "4":
+                print("Resultado:", num1 / num2)
 
     except ValueError:
         print("Entrada inválida. Por favor, ingresa números.")

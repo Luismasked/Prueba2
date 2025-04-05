@@ -18,6 +18,8 @@ while True:
         match opcion:
             case "1":
                 print("Resultado:", num1 + num2)
+            case "2":
+                print("Resultado:", num1 - num2)
             case _:
                 print("Opción inválida. Intenta de nuevo.")
 

@@ -15,6 +15,10 @@ while True:
     try:
         num1 = float(input("Ingresa el primer número: "))
         num2 = float(input("Ingresa el segundo número: "))
+        match opcion:
+            case "3":
+                print("Resultado:", num1 * num2)
+
     except ValueError:
         print("Entrada inválida. Por favor, ingresa números.")
         continue
